@@ -1,6 +1,6 @@
-FROM gliderlabs/alpine:3.3
+FROM gliderlabs/alpine:3.4
 
-RUN apk add --update mosquitto 
+RUN apk add --no-cache mosquitto 
 
 EXPOSE 1883
 
